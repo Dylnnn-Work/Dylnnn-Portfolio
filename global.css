@@ -1,0 +1,41 @@
+.container-projects, .title-projects{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-projects{
+    margin-top: 138px;
+}
+
+.card-projects {
+  overflow: hidden;
+  margin-top: 65px;
+  
+}
+
+.project-img {
+  transition: all 0.4s ease-in-out;
+  max-height: 550px;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+.project-img:hover {
+  transform: scale(1.2);
+  
+}
+
+
+.contact-form {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+}
+
+.container-form {
+  padding-top: 35px ;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
