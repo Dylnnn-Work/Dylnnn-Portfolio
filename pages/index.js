@@ -1,4 +1,3 @@
-import Head from "next/head"
 import Hire from "../components/Hire";
 import Layout from "../components/Layout";
 import Profile from "../components/Profile";
@@ -7,9 +6,6 @@ import projects from "../info";
 const index = () => {
   return (
     <div>
-      <Head>
-        <title> Dylan Gonzalez </title>
-      </Head>
       <Layout>
           <Profile />
           <Projects projects={projects}/>
