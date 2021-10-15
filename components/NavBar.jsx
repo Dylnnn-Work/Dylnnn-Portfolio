@@ -11,10 +11,10 @@ const NavBar = () => {
                         <Link className="nav-link"  href="/"><a className="nav-link"> Profile</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href="/"><a className="nav-link" onClick={() => window.scrollTo(0,450)}> Projects</a></Link> 
+                        <Link className="nav-link" href="/#Projects"><a className="nav-link"> Projects</a></Link> 
                     </li> 
                     <li className="nav-item">
-                        <Link className="nav-link" href="/"><a className="nav-link" onClick={() => window.scrollTo(0,7000)}>Hire</a></Link>
+                       <Link className="nav-link" href="/#Hire"><a className="nav-link">Hire</a></Link> 
                     </li>
                 </ul>
             </div>
@@ -22,5 +22,4 @@ const NavBar = () => {
 
     )
 }
-
 export default NavBar;

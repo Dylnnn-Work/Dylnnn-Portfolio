@@ -10,7 +10,7 @@ const Projects = ({ projects }) => {
 
     return (
         <>
-        <div className="title-projects">
+        <div id="Projects"  className="title-projects">
             <h1>Projects</h1>
         </div>
             <div className="container-projects">
@@ -26,7 +26,6 @@ const Projects = ({ projects }) => {
                                     <h2>{r.name}</h2>
                                 </div>
                             </Link> 
-                            {/* <button onClick={() => handleClick(r.name)} className="btn-primary primary">ir a este proyecto</button> */}
                             </div>
                         )
                     })}
