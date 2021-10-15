@@ -1,9 +1,18 @@
 // import App from 'next/app'
 import "bootswatch/dist/lux/bootstrap.min.css"
 import "../global.css"
+import Head from "next/head"
 
 function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+    return (
+    <>
+     <Head>
+        <title> Dylan Gonzalez </title>
+        <link rel="icon" href="\Dylan().ico" />
+      </Head>
+    <Component {...pageProps} />
+    </>
+    )
   }
   
   // Only uncomment this method if you have blocking data requirements for

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Hire from "../components/Hire";
 import Layout from "../components/Layout";
 import Profile from "../components/Profile";
