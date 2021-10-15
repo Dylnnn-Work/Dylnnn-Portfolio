@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
      <Head>
         <title> Dylan Gonzalez </title>
-        <link rel="icon" href="\Dylan().ico" />
+        <link rel="icon" href="\DylanIcon.ico" />
       </Head>
     <Component {...pageProps} />
     </>
