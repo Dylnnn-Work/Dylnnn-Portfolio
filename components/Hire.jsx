@@ -16,7 +16,7 @@ const Hire = () => {
     }
     return (
         <div id="Hire">
-        <div Style="display:flex;justify-content:center;padding-top:80px">
+        <div className="hiring">
             <h1 >Contact me</h1>
         </div>
             <div className="container-form">
@@ -28,8 +28,8 @@ const Hire = () => {
                     <label>Email</label>
                     <input className="form-control" type="email" name="user_email" />
                     <label>Message</label>
-                    <textarea className="form-control" Style="padding-bottom:80px" name="message" required />
-                    <input className="btn btn-primary" Style="margin-top:4.5px" type="submit" value="Send" />
+                    <textarea className="form-control" id="textare-mesagge" name="message" required />
+                    <input className="btn btn-primary" id="input-hire"  type="submit" value="Send" />
                     <label>{alert}</label>
                 </form>
             </div>

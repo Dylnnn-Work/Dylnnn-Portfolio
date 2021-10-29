@@ -12,13 +12,13 @@ const Project = ({ projects }) => {
   const project = projects[router.query.id];
   return (
     <Layout>
-      <div Style="margin-top:25px;display:flex;flex-direction:column;align-items:center;align-content:center">
+      <div className="container-project-id">
         <h1>{project.name}</h1>
-        <h5 Style="margin-top:25px">{project.about}</h5>
-        <div Style="margin-top:30px;display:flex;flex-direction:column;align-items:center">
+        <h5 className="h5-project-id">{project.about}</h5>
+        <div className="container-imgs">
           {project.imgs.map((r, index) => {
             return (
-              <div Style="margin-top:18px" key={index}>
+              <div className="img-project-id" key={index}>
                 <Image src={"/" + r} width="800" height="400" />
               </div>
             );
@@ -26,8 +26,7 @@ const Project = ({ projects }) => {
         </div>
         <Link href={project.link_github}>
           <svg
-            width="989"
-            height="78"
+            className="svg-github"
             viewBox="0 0 989 78"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

@@ -1,17 +1,17 @@
-.container-projects, .title-projects{
+.container-projects,
+.title-projects {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.title-projects{
-    margin-top: 138px;
+.title-projects {
+  margin-top: 138px;
 }
 
 .card-projects {
   overflow: hidden;
   margin-top: 65px;
-  
 }
 
 .project-img {
@@ -23,9 +23,7 @@
 
 .project-img:hover {
   transform: scale(1.2);
-  
 }
-
 
 .contact-form {
   display: flex;
@@ -34,8 +32,68 @@
 }
 
 .container-form {
-  padding-top: 35px ;
+  padding-top: 35px;
   display: flex;
   justify-content: center;
   padding-bottom: 100px;
 }
+
+.hiring {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.container-project-id {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.h5-project-id {
+  margin-top: 25px;
+}
+
+.img-project-id {
+  margin-top: 18px;
+}
+
+.container-imgs {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#textare-mesagge {
+  padding-bottom: 80px;
+}
+
+#input-hire {
+  margin-top: 4.5px;
+}
+
+@media (max-width: 384px) {
+  .project-img {
+    max-width: 368px;
+    max-height: 272px;
+  }
+  .img-fluid {
+    max-width: 345px;
+    max-height: 400px;
+  }
+  .svg-github {
+    margin-top: -20px;
+    width: 382px;
+    height: 78px;
+  }
+  .contact-form {
+    max-width: 366px;
+  }
+
+}
+
+
+
