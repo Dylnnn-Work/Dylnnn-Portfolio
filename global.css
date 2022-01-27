@@ -52,7 +52,7 @@
   align-content: center;
 }
 
-.h5-project-id {
+.h5-project-id,.textAboutme {
   margin-top: 25px;
 }
 
@@ -60,7 +60,7 @@
   margin-top: 18px;
 }
 
-.container-imgs {
+.container-imgs,.container-dates {
   margin-top: 30px;
   display: flex;
   flex-direction: column;

@@ -9,7 +9,7 @@ const Profile = () => {
                     <h1>Dylan Gonzalez</h1>
                     <h5>About</h5>
                     <span>
-                        Hi i'm Dylan 👨🏽‍💻, i'm a Full-Stack JavaScript Developer. I've experience in Scrum projects with React, Redux, Node, Express, postgreSQl, sequelize, MongoDB, Mongoose, GraphQl, Apollo Client, Tailwind CSS, among others.
+                        Hi i'm Dylan 👨🏽‍💻, i'm a Full-Stack JavaScript Developer. I've experience in Scrum projects with TypeScript, React, Redux, Node, Express, postgreSQl, sequelize, MongoDB, Mongoose, GraphQl, Apollo Client, Tailwind CSS, among others.
                     </span>
                 </div>
 
