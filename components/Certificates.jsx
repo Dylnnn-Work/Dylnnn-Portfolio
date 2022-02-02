@@ -2,7 +2,7 @@ import Link from "next/dist/client/link";
 
 const Certificates = ({ certificates }) => {
     return (
-        <>
+        <div>
             <h1 className="title-projects">Certificates</h1>
             <div className="container-projects">
             <div>
@@ -21,7 +21,7 @@ const Certificates = ({ certificates }) => {
                 })
             }</div>
             </div>
-        </>
+        </div>
     )
 }
 
